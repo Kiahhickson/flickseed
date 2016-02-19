@@ -1,0 +1,38 @@
+# == Schema Information
+#
+# Table name: investors
+#
+#  id              :integer          not null, primary key
+#  investor_id     :integer
+#  name            :text
+#  company_name    :text
+#  title           :text
+#  email_address   :text
+#  password_digest :text
+#  website         :text
+#  profile_picture :text
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  investor_id: 1
+  name: MyText
+  company_name: MyText
+  title: MyText
+  email_address: MyText
+  password_digest: MyText
+  website: MyText
+  profile_picture: MyText
+
+two:
+  investor_id: 1
+  name: MyText
+  company_name: MyText
+  title: MyText
+  email_address: MyText
+  password_digest: MyText
+  website: MyText
+  profile_picture: MyText

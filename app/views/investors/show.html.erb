@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Investor:</strong>
+  <%= @investor.investor_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @investor.name %>
+</p>
+
+<p>
+  <strong>Company name:</strong>
+  <%= @investor.company_name %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @investor.title %>
+</p>
+
+<p>
+  <strong>Email address:</strong>
+  <%= @investor.email_address %>
+</p>
+
+<p>
+  <strong>Password digest:</strong>
+  <%= @investor.password_digest %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @investor.website %>
+</p>
+
+<p>
+  <strong>Profile picture:</strong>
+  <%= @investor.profile_picture %>
+</p>
+
+<%= link_to 'Edit', edit_investor_path(@investor) %> |
+<%= link_to 'Back', investors_path %>
